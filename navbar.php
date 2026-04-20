@@ -33,9 +33,9 @@
 
       <!-- NAV LINKS - Desktop -->
       <div class="hidden md:flex flex-1 items-center justify-center gap-12">
-        <a href="#" class="font-poppins font-semibold text-base tracking-widest text-[#254991] hover:opacity-70 transition-opacity duration-200 uppercase">Home</a>
+        <a href="./index.php" class="font-poppins font-semibold text-base tracking-widest text-[#254991] hover:opacity-70 transition-opacity duration-200 uppercase">Home</a>
         <a href="#" class="font-poppins font-semibold text-base tracking-widest text-[#254991] hover:opacity-70 transition-opacity duration-200 uppercase">About Us</a>
-        <a href="#" class="font-poppins font-semibold text-base tracking-widest text-[#254991] hover:opacity-70 transition-opacity duration-200 uppercase">Our Products</a>
+        <a href="./prouducts.php" class="font-poppins font-semibold text-base tracking-widest text-[#254991] hover:opacity-70 transition-opacity duration-200 uppercase">Our Products</a>
         <a href="#" class="font-poppins font-semibold text-base tracking-widest text-[#254991] hover:opacity-70 transition-opacity duration-200 uppercase">Contact Us</a>
       </div>
 
@@ -56,9 +56,9 @@
 
     <!-- MOBILE MENU -->
     <div id="mobile-menu" class="hidden md:hidden border-t border-[#dde6f5]">
-      <a href="#" class="block font-poppins font-semibold text-sm tracking-widest text-[#254991] uppercase px-10 py-4 border-b border-[#dde6f5] hover:bg-blue-50">Home</a>
+      <a href="./index.php" class="block font-poppins font-semibold text-sm tracking-widest text-[#254991] uppercase px-10 py-4 border-b border-[#dde6f5] hover:bg-blue-50">Home</a>
       <a href="#" class="block font-poppins font-semibold text-sm tracking-widest text-[#254991] uppercase px-10 py-4 border-b border-[#dde6f5] hover:bg-blue-50">About Us</a>
-      <a href="#" class="block font-poppins font-semibold text-sm tracking-widest text-[#254991] uppercase px-10 py-4 border-b border-[#dde6f5] hover:bg-blue-50">Our Products</a>
+      <a href="./prouducts.php" class="block font-poppins font-semibold text-sm tracking-widest text-[#254991] uppercase px-10 py-4 border-b border-[#dde6f5] hover:bg-blue-50">Our Products</a>
       <a href="#" class="block font-poppins font-semibold text-sm tracking-widest text-[#254991] uppercase px-10 py-4 hover:bg-blue-50">Contact Us</a>
     </div>
   </nav>
