@@ -101,7 +101,7 @@ include "./footer.php"
 ════════════════════════════════════ -->
 <script>
 const products = {
-    "category": "Lubricant Additives",
+    "category": "Lubricant Additives / Speciality Chemicals",
    "items": [
     "2t / 4 Stroke Engine Oil Additive",
     "2 Stroke Engine Oil Additive",

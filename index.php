@@ -14,7 +14,6 @@
     <?php
     include "./hero.php"
     ?>
-    <!-- About Us section -->
 
 
     <!-- ABOUT SECTION -->
