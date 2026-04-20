@@ -267,6 +267,7 @@
                 </div>
 
             </div>
+</section>
             <!-- END GRID -->
             <section style="background:#254991; width:100vw; margin-left:calc(50% - 50vw); padding:56px 0;">
                 <div class="max-w-7xl mx-auto px-4">
@@ -327,172 +328,166 @@
             </section>
 
             <!-- CONTACT US SECTION -->
-<section class="w-full bg-gray-50 py-14">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <section class="w-full bg-gray-50 py-14">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <!-- HEADING -->
-        <div class="flex items-stretch mb-10">
-            <div class="w-1 bg-[#CB5116] mr-4 rounded-sm"></div>
-            <div>
-                <p class="text-[#CB5116] font-semibold text-lg tracking-widest uppercase leading-tight">Get In Touch</p>
-                <h2 class="text-[#254991] font-bold text-xl sm:text-2xl tracking-wide uppercase mt-1">
-                    Contact Us
-                </h2>
-            </div>
-        </div>
-
-        <!-- GRID: INFO + FORM -->
-        <div class="flex flex-col lg:flex-row gap-10 items-start">
-
-            <!-- LEFT: CONTACT INFO -->
-            <div class="w-full lg:w-2/5">
-                <p class="text-gray-600 text-sm leading-relaxed mb-8">
-                    Have a product enquiry or want to discuss a bulk order? Reach out to our team — we're ready to deliver solutions that match your industrial needs.
-                </p>
-
-                <!-- Address -->
-                <div class="flex items-start gap-4 mb-6">
-                    <div class="w-11 h-11 rounded-md bg-[#254991] flex items-center justify-center flex-shrink-0">
-                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="#CB5116" stroke-width="1.8">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/>
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Our Address</p>
-                        <p class="text-gray-700 text-sm leading-relaxed">Plot No. 12, MIDC Industrial Area,<br>Mumbai, Maharashtra – 400093</p>
-                    </div>
-                </div>
-
-                <!-- Phone -->
-                <div class="flex items-start gap-4 mb-6">
-                    <div class="w-11 h-11 rounded-md bg-[#254991] flex items-center justify-center flex-shrink-0">
-                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="#CB5116" stroke-width="1.8">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 6.75z"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Phone</p>
-                        <p class="text-gray-700 text-sm leading-relaxed">+91 98200 00000<br>+91 22 1234 5678</p>
-                    </div>
-                </div>
-
-                <!-- Email -->
-                <div class="flex items-start gap-4 mb-6">
-                    <div class="w-11 h-11 rounded-md bg-[#254991] flex items-center justify-center flex-shrink-0">
-                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="#CB5116" stroke-width="1.8">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0l-9.75 6.75L2.25 6.75"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Email</p>
-                        <p class="text-gray-700 text-sm leading-relaxed">info@globaltreading.com<br>sales@globaltreading.com</p>
-                    </div>
-                </div>
-
-                <!-- Business Hours -->
-                <div class="flex items-start gap-4 mb-6">
-                    <div class="w-11 h-11 rounded-md bg-[#254991] flex items-center justify-center flex-shrink-0">
-                        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="#CB5116" stroke-width="1.8">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Business Hours</p>
-                        <p class="text-gray-700 text-sm leading-relaxed">Mon – Sat: 9:00 AM – 6:00 PM<br>Sunday: Closed</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- RIGHT: CONTACT FORM -->
-            <div class="w-full lg:w-3/5">
-                <div class="bg-white rounded-lg p-8 shadow-sm border border-gray-100">
-
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
-                        <!-- Full Name -->
-                        <div class="flex flex-col gap-1.5">
-                            <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Full Name</label>
-                            <input
-                                type="text"
-                                placeholder="John Doe"
-                                class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200"
-                            />
-                        </div>
-                        <!-- Company -->
-                        <div class="flex flex-col gap-1.5">
-                            <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Company</label>
-                            <input
-                                type="text"
-                                placeholder="Your Company Ltd."
-                                class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200"
-                            />
+                    <!-- HEADING -->
+                    <div class="flex items-stretch mb-10">
+                        <div class="w-1 bg-[#CB5116] mr-4 rounded-sm"></div>
+                        <div>
+                            <p class="text-[#CB5116] font-semibold text-lg tracking-widest uppercase leading-tight">Get In Touch</p>
+                            <h2 class="text-[#254991] font-bold text-xl sm:text-2xl tracking-wide uppercase mt-1">
+                                Contact Us
+                            </h2>
                         </div>
                     </div>
 
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
-                        <!-- Email -->
-                        <div class="flex flex-col gap-1.5">
-                            <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Email Address</label>
-                            <input
-                                type="email"
-                                placeholder="john@company.com"
-                                class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200"
-                            />
+                    <!-- GRID: INFO + FORM -->
+                    <div class="flex flex-col lg:flex-row gap-10 items-start">
+
+                        <!-- LEFT: CONTACT INFO -->
+                        <div class="w-full lg:w-2/5">
+                            <p class="text-gray-600 text-sm leading-relaxed mb-8">
+                                Have a product enquiry or want to discuss a bulk order? Reach out to our team — we're ready to deliver solutions that match your industrial needs.
+                            </p>
+
+                            <!-- Address -->
+                            <div class="flex items-start gap-4 mb-6">
+                                <div class="w-11 h-11 rounded-md bg-[#254991] flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="#CB5116" stroke-width="1.8">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Our Address</p>
+                                    <p class="text-gray-700 text-sm leading-relaxed">Plot No. 12, MIDC Industrial Area,<br>Mumbai, Maharashtra – 400093</p>
+                                </div>
+                            </div>
+
+                            <!-- Phone -->
+                            <div class="flex items-start gap-4 mb-6">
+                                <div class="w-11 h-11 rounded-md bg-[#254991] flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="#CB5116" stroke-width="1.8">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 6.75z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Phone</p>
+                                    <p class="text-gray-700 text-sm leading-relaxed">+91 98200 00000<br>+91 22 1234 5678</p>
+                                </div>
+                            </div>
+
+                            <!-- Email -->
+                            <div class="flex items-start gap-4 mb-6">
+                                <div class="w-11 h-11 rounded-md bg-[#254991] flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="#CB5116" stroke-width="1.8">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0l-9.75 6.75L2.25 6.75" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Email</p>
+                                    <p class="text-gray-700 text-sm leading-relaxed">info@globaltreading.com<br>sales@globaltreading.com</p>
+                                </div>
+                            </div>
+
+                            <!-- Business Hours -->
+                            <div class="flex items-start gap-4 mb-6">
+                                <div class="w-11 h-11 rounded-md bg-[#254991] flex items-center justify-center flex-shrink-0">
+                                    <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="#CB5116" stroke-width="1.8">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                    </svg>
+                                </div>
+                                <div>
+                                    <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Business Hours</p>
+                                    <p class="text-gray-700 text-sm leading-relaxed">Mon – Sat: 9:00 AM – 6:00 PM<br>Sunday: Closed</p>
+                                </div>
+                            </div>
+
                         </div>
-                        <!-- Phone -->
-                        <div class="flex flex-col gap-1.5">
-                            <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Phone Number</label>
-                            <input
-                                type="tel"
-                                placeholder="+91 98000 00000"
-                                class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200"
-                            />
+
+                        <!-- RIGHT: CONTACT FORM -->
+                        <div class="w-full lg:w-3/5">
+                            <div class="bg-white rounded-lg p-8 shadow-sm border border-gray-100">
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
+                                    <!-- Full Name -->
+                                    <div class="flex flex-col gap-1.5">
+                                        <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Full Name</label>
+                                        <input
+                                            type="text"
+                                            placeholder="John Doe"
+                                            class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200" />
+                                    </div>
+                                    <!-- Company -->
+                                    <div class="flex flex-col gap-1.5">
+                                        <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Company</label>
+                                        <input
+                                            type="text"
+                                            placeholder="Your Company Ltd."
+                                            class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200" />
+                                    </div>
+                                </div>
+
+                                <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-5">
+                                    <!-- Email -->
+                                    <div class="flex flex-col gap-1.5">
+                                        <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Email Address</label>
+                                        <input
+                                            type="email"
+                                            placeholder="john@company.com"
+                                            class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200" />
+                                    </div>
+                                    <!-- Phone -->
+                                    <div class="flex flex-col gap-1.5">
+                                        <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Phone Number</label>
+                                        <input
+                                            type="tel"
+                                            placeholder="+91 98000 00000"
+                                            class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200" />
+                                    </div>
+                                </div>
+
+                                <!-- Product Interest -->
+                                <div class="flex flex-col gap-1.5 mb-5">
+                                    <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Product Interest</label>
+                                    <select class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200">
+                                        <option value="" disabled selected>Select a product category</option>
+                                        <option>Industrial Oils</option>
+                                        <option>Lubricant Additives</option>
+                                        <option>Specialty Chemicals</option>
+                                        <option>Metalworking Fluids</option>
+                                        <option>Finished Fluids</option>
+                                        <option>Other Products</option>
+                                    </select>
+                                </div>
+
+                                <!-- Message -->
+                                <div class="flex flex-col gap-1.5 mb-6">
+                                    <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Message</label>
+                                    <textarea
+                                        rows="4"
+                                        placeholder="Tell us about your requirement or inquiry..."
+                                        class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200 resize-none"></textarea>
+                                </div>
+
+                                <!-- Submit Button -->
+                                <button class="inline-flex items-center gap-2 bg-[#CB5116] text-white text-sm font-semibold px-6 py-3 rounded-sm hover:bg-[#254991] transition-colors duration-300">
+                                    Send Enquiry
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                    </svg>
+                                </button>
+
+                            </div>
+
                         </div>
                     </div>
-
-                    <!-- Product Interest -->
-                    <div class="flex flex-col gap-1.5 mb-5">
-                        <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Product Interest</label>
-                        <select class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200">
-                            <option value="" disabled selected>Select a product category</option>
-                            <option>Industrial Oils</option>
-                            <option>Lubricant Additives</option>
-                            <option>Specialty Chemicals</option>
-                            <option>Metalworking Fluids</option>
-                            <option>Finished Fluids</option>
-                            <option>Other Products</option>
-                        </select>
-                    </div>
-
-                    <!-- Message -->
-                    <div class="flex flex-col gap-1.5 mb-6">
-                        <label class="text-[#254991] text-xs font-semibold uppercase tracking-wider">Message</label>
-                        <textarea
-                            rows="4"
-                            placeholder="Tell us about your requirement or inquiry..."
-                            class="border border-gray-200 rounded-sm px-3.5 py-2.5 text-sm text-gray-700 bg-gray-50 focus:outline-none focus:border-[#254991] focus:bg-white transition-colors duration-200 resize-none"
-                        ></textarea>
-                    </div>
-
-                    <!-- Submit Button -->
-                    <button class="inline-flex items-center gap-2 bg-[#CB5116] text-white text-sm font-semibold px-6 py-3 rounded-sm hover:bg-[#254991] transition-colors duration-300">
-                        Send Enquiry
-                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                        </svg>
-                    </button>
-
                 </div>
-            </div>
-            <!-- END FORM -->
-
-        </div>
-    </div>
-</section>
-<?php 
-include "footer.php"
-?>
+            </section>
+            <?php
+            include "footer.php"
+            ?>
 </body>
 
 </html>
