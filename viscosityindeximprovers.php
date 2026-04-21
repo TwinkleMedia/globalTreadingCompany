@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
 
 
@@ -14,10 +16,10 @@
      Drop this inside your existing page (after navbar/hero)
      Tailwind CDN must already be loaded in your <head>
 ════════════════════════════════════════════════════════ -->
-<?php 
-include "./navbar.php"
-?>
-   <!-- PRODUCTS HERO -->
+    <?php
+    include "./navbar.php"
+    ?>
+    <!-- PRODUCTS HERO -->
     <section class="relative w-full bg-[#254991] py-20 sm:py-28 overflow-hidden">
 
         <!-- Subtle background glows -->
@@ -78,101 +80,107 @@ include "./navbar.php"
 
 
 
-<section class="font-poppins w-full bg-white py-14">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section class="font-poppins w-full bg-white py-14">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <!-- ── Section Heading ── -->
-        <div class="flex items-stretch mb-10">
-            <div class="w-1 bg-[#CB5116] mr-4 rounded-sm"></div>
-            <div>
-                <p class="text-[#CB5116] font-bold text-sm tracking-widest uppercase leading-tight">Products</p>
-                <h2 class="text-[#254991] font-bold text-xl sm:text-2xl tracking-wide mt-0.5" id="category-title">Industrial Oils</h2>
+            <!-- ── Section Heading ── -->
+            <div class="flex items-stretch mb-10">
+                <div class="w-1 bg-[#CB5116] mr-4 rounded-sm"></div>
+                <div>
+                    <p class="text-[#CB5116] font-bold text-sm tracking-widest uppercase leading-tight">Products</p>
+                    <h2 class="text-[#254991] font-bold text-xl sm:text-2xl tracking-wide mt-0.5" id="category-title">Industrial Oils</h2>
+                </div>
             </div>
+
+            <!-- ── Grid ── -->
+            <div id="carousel-grid"
+                class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
+                style="transition: opacity 0.25s ease, transform 0.25s ease;">
+            </div>
+
+            <!-- ── Dot Indicators ── -->
+            <div id="dots" class="flex items-center justify-center gap-3 mt-10"></div>
+
         </div>
+    </section>
+    <?php
+    include "./whatsapp-float.php"
+    ?>
+    <?php
+    include "./footer.php"
+    ?>
 
-        <!-- ── Grid ── -->
-        <div id="carousel-grid"
-             class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
-             style="transition: opacity 0.25s ease, transform 0.25s ease;">
-        </div>
-
-        <!-- ── Dot Indicators ── -->
-        <div id="dots" class="flex items-center justify-center gap-3 mt-10"></div>
-
-    </div>
-</section>
-
-<?php 
-include "./footer.php"
-?>
-
-<!-- ════════════════════════════════════
+    <!-- ════════════════════════════════════
      PRODUCTS DATA + CAROUSEL LOGIC
 ════════════════════════════════════ -->
-<script>
-const products = {
-    "category": "Viscosity index improvers",
-    "items": [
-        "LUBIMAX 141",
-        "LUBIMAX 141S",
-        "INNOVEP P 8161",
-        "ESPRENE 132",
-        "NDR 245",
-        "DOW NORDEL 3745",
-        "Water White VI Liquid (OCP Base)",
-        "Golden VI Liquid (OCP Base)",
-        "Water White VI Liquid (PMMA Base)",
-        "RC VI"
+    <script>
+        const products = {
+            "category": "Viscosity index improvers",
+            "items": [
+                "LUBIMAX 141",
+                "LUBIMAX 141S",
+                "INNOVEP P 8161",
+                "ESPRENE 132",
+                "NDR 245",
+                "DOW NORDEL 3745",
+                "Water White VI Liquid (OCP Base)",
+                "Golden VI Liquid (OCP Base)",
+                "Water White VI Liquid (PMMA Base)",
+                "RC VI"
 
-    ]
-};
+            ]
+        };
 
-const PER_PAGE   = 9;
-let currentPage  = 0;
-let autoTimer    = null;
+        const PER_PAGE = 9;
+        let currentPage = 0;
+        let autoTimer = null;
 
-const grid    = document.getElementById('carousel-grid');
-const dots    = document.getElementById('dots');
-const title   = document.getElementById('category-title');
-const section = grid.closest('section');
+        const grid = document.getElementById('carousel-grid');
+        const dots = document.getElementById('dots');
+        const title = document.getElementById('category-title');
+        const section = grid.closest('section');
 
-title.textContent = products.category;
+        title.textContent = products.category;
 
-const totalPages = Math.ceil(products.items.length / PER_PAGE);
+        const totalPages = Math.ceil(products.items.length / PER_PAGE);
 
-/* ── Auto-slide every 4 seconds ── */
-function startAuto() {
-    stopAuto();
-    autoTimer = setInterval(() => {
-        renderPage((currentPage + 1) % totalPages);
-    }, 4000);
-}
-function stopAuto() {
-    if (autoTimer) { clearInterval(autoTimer); autoTimer = null; }
-}
+        /* ── Auto-slide every 4 seconds ── */
+        function startAuto() {
+            stopAuto();
+            autoTimer = setInterval(() => {
+                renderPage((currentPage + 1) % totalPages);
+            }, 4000);
+        }
 
-/* Pause auto-slide when user hovers over the section */
-section.addEventListener('mouseenter', stopAuto);
-section.addEventListener('mouseleave', startAuto);
+        function stopAuto() {
+            if (autoTimer) {
+                clearInterval(autoTimer);
+                autoTimer = null;
+            }
+        }
 
-function renderPage(page) {
-    currentPage = page;
-    const slice = products.items.slice(page * PER_PAGE, page * PER_PAGE + PER_PAGE);
+        /* Pause auto-slide when user hovers over the section */
+        section.addEventListener('mouseenter', stopAuto);
+        section.addEventListener('mouseleave', startAuto);
 
-    /* Fade out */
-    grid.style.opacity   = '0';
-    grid.style.transform = 'translateY(10px)';
+        function renderPage(page) {
+            currentPage = page;
+            const slice = products.items.slice(page * PER_PAGE, page * PER_PAGE + PER_PAGE);
 
-    setTimeout(() => {
-        grid.innerHTML = '';
+            /* Fade out */
+            grid.style.opacity = '0';
+            grid.style.transform = 'translateY(10px)';
 
-        slice.forEach(name => {
-            const wrapper = document.createElement('div');
-            wrapper.style.cssText = 'position:relative; cursor:default;';
+            setTimeout(() => {
+                grid.innerHTML = '';
 
-            /* Orange shadow block */
-            const shadow = document.createElement('div');
-            shadow.style.cssText = `
+                slice.forEach(name => {
+                    const wrapper = document.createElement('div');
+                    wrapper.style.cssText = 'position:relative; cursor:default;';
+
+                    /* Orange shadow block */
+                    const shadow = document.createElement('div');
+                    shadow.style.cssText = `
                 position: absolute;
                 bottom: 0; right: 0;
                 width: 100%; height: 100%;
@@ -181,9 +189,9 @@ function renderPage(page) {
                 border-radius: 3px;
             `;
 
-            /* Navy card */
-            const card = document.createElement('div');
-            card.style.cssText = `
+                    /* Navy card */
+                    const card = document.createElement('div');
+                    card.style.cssText = `
                 position: relative;
                 background: #254991;
                 border-radius: 3px;
@@ -193,12 +201,12 @@ function renderPage(page) {
                 gap: 12px;
                 transition: background 0.2s ease;
             `;
-            card.onmouseenter = () => card.style.background = '#1d3a78';
-            card.onmouseleave = () => card.style.background = '#254991';
+                    card.onmouseenter = () => card.style.background = '#1d3a78';
+                    card.onmouseleave = () => card.style.background = '#254991';
 
-            /* Left orange bar */
-            const bar = document.createElement('div');
-            bar.style.cssText = `
+                    /* Left orange bar */
+                    const bar = document.createElement('div');
+                    bar.style.cssText = `
                 width: 3px;
                 flex-shrink: 0;
                 align-self: stretch;
@@ -206,9 +214,9 @@ function renderPage(page) {
                 border-radius: 99px;
             `;
 
-            /* Product name */
-            const text = document.createElement('p');
-            text.style.cssText = `
+                    /* Product name */
+                    const text = document.createElement('p');
+                    text.style.cssText = `
                 color: white;
                 font-family: 'Poppins', sans-serif;
                 font-weight: 600;
@@ -216,25 +224,25 @@ function renderPage(page) {
                 line-height: 1.5;
                 margin: 0;
             `;
-            text.textContent = name;
+                    text.textContent = name;
 
-            card.appendChild(bar);
-            card.appendChild(text);
-            wrapper.appendChild(shadow);
-            wrapper.appendChild(card);
-            grid.appendChild(wrapper);
-        });
+                    card.appendChild(bar);
+                    card.appendChild(text);
+                    wrapper.appendChild(shadow);
+                    wrapper.appendChild(card);
+                    grid.appendChild(wrapper);
+                });
 
-        /* Fade in */
-        grid.style.opacity   = '1';
-        grid.style.transform = 'translateY(0)';
-    }, 250);
+                /* Fade in */
+                grid.style.opacity = '1';
+                grid.style.transform = 'translateY(0)';
+            }, 250);
 
-    /* ── Dots ── */
-    dots.innerHTML = '';
-    for (let i = 0; i < totalPages; i++) {
-        const dot = document.createElement('button');
-        dot.style.cssText = `
+            /* ── Dots ── */
+            dots.innerHTML = '';
+            for (let i = 0; i < totalPages; i++) {
+                const dot = document.createElement('button');
+                dot.style.cssText = `
             width: 18px; height: 18px;
             border-radius: 3px;
             background: #CB5116;
@@ -244,21 +252,26 @@ function renderPage(page) {
             transition: opacity 0.2s ease;
             padding: 0;
         `;
-        dot.onmouseenter = () => { if (i !== currentPage) dot.style.opacity = '0.65'; };
-        dot.onmouseleave = () => { if (i !== currentPage) dot.style.opacity = '0.35'; };
-        dot.setAttribute('aria-label', `Page ${i + 1}`);
-        dot.addEventListener('click', () => {
-            renderPage(i);
-            stopAuto();
-            startAuto(); /* reset timer after manual click */
-        });
-        dots.appendChild(dot);
-    }
-}
+                dot.onmouseenter = () => {
+                    if (i !== currentPage) dot.style.opacity = '0.65';
+                };
+                dot.onmouseleave = () => {
+                    if (i !== currentPage) dot.style.opacity = '0.35';
+                };
+                dot.setAttribute('aria-label', `Page ${i + 1}`);
+                dot.addEventListener('click', () => {
+                    renderPage(i);
+                    stopAuto();
+                    startAuto(); /* reset timer after manual click */
+                });
+                dots.appendChild(dot);
+            }
+        }
 
-/* Start */
-renderPage(0);
-startAuto();
-</script>
+        /* Start */
+        renderPage(0);
+        startAuto();
+    </script>
 </body>
+
 </html>

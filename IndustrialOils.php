@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    <?php 
+    <?php
     include "./navbar.php"
     ?>
-      <!-- PRODUCTS HERO -->
+    <!-- PRODUCTS HERO -->
     <section class="relative w-full bg-[#254991] py-20 sm:py-28 overflow-hidden">
 
         <!-- Subtle background glows -->
@@ -23,7 +25,7 @@
 
             <!-- Heading -->
             <h1 class="text-white font-bold text-3xl sm:text-4xl lg:text-5xl tracking-wide uppercase mb-5">
-               Industrial Oils
+                Industrial Oils
             </h1>
 
             <!-- Divider -->
@@ -66,12 +68,16 @@
         </div>
 
     </section>
-    <?php 
+    <?php
     include "./IndustrialOilsProducts.php"
     ?>
-    <?php 
+    <?php
+    include "./whatsapp-float.php"
+    ?>
+    <?php
     include "./footer.php"
     ?>
-    
+
 </body>
+
 </html>

@@ -207,7 +207,140 @@
         </div>
     </section>
     <!-- END KEY STRENGTHS -->
+<!-- OUR EXPERTISE SECTION -->
 
+ 
+<section class="w-full bg-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+ 
+        <!-- HEADING -->
+        <div class="flex items-stretch mb-6">
+            <div class="w-1 bg-[#CB5116] mr-4 rounded-sm flex-shrink-0"></div>
+            <div>
+                <h2 class="text-[#254991] font-bold text-xl sm:text-2xl tracking-wide uppercase font-poppins">
+                    Our Expertise
+                </h2>
+            </div>
+        </div>
+ 
+        <!-- Subtext -->
+        <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-10 max-w-2xl font-poppins">
+            With over two decades of experience, our team develops cutting-edge lubricants and Additives.
+        </p>
+ 
+        <!-- 2x2 GRID with dividers -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 bg-[#EEF3FB] rounded-xl overflow-hidden">
+ 
+            <!-- Item 1: Engineered lubricant additives -->
+            <div class="group flex items-start gap-5 p-8 sm:border-r border-[#cdd8ee] border-b border-[#cdd8ee] hover:bg-[#254991]/5 transition-colors duration-300">
+                <!-- Icon box -->
+                <div class="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-white rounded-lg shadow-sm group-hover:shadow-md transition-shadow duration-300">
+                    <svg class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Oil can + molecules icon -->
+                        <rect x="6" y="18" width="18" height="22" rx="2" stroke="#254991" stroke-width="2" fill="none"/>
+                        <path d="M10 18V14a4 4 0 014-4h2" stroke="#254991" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M18 10h4l2-4" stroke="#254991" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="34" cy="12" r="3" stroke="#CB5116" stroke-width="2" fill="none"/>
+                        <circle cx="42" cy="20" r="2.5" stroke="#CB5116" stroke-width="2" fill="none"/>
+                        <circle cx="34" cy="26" r="2.5" stroke="#CB5116" stroke-width="2" fill="none"/>
+                        <line x1="36.5" y1="14" x2="40" y2="18" stroke="#CB5116" stroke-width="1.5"/>
+                        <line x1="36.5" y1="24" x2="40" y2="22" stroke="#CB5116" stroke-width="1.5"/>
+                        <path d="M8 28h14M8 33h14" stroke="#254991" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-[#254991] font-semibold text-base leading-snug font-poppins group-hover:text-[#CB5116] transition-colors duration-300">
+                        Engineered lubricant additives
+                    </h3>
+                    <p class="text-gray-500 text-xs leading-relaxed mt-1.5 font-poppins">
+                        Precision-engineered additive packages that enhance viscosity, reduce wear, and extend the life of lubricant formulations.
+                    </p>
+                </div>
+            </div>
+ 
+            <!-- Item 2: Advanced additives for diverse applications -->
+            <div class="group flex items-start gap-5 p-8 border-b border-[#cdd8ee] hover:bg-[#254991]/5 transition-colors duration-300">
+                <div class="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-white rounded-lg shadow-sm group-hover:shadow-md transition-shadow duration-300">
+                    <svg class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Gear + robotic arm / machinery -->
+                        <circle cx="18" cy="24" r="7" stroke="#254991" stroke-width="2" fill="none"/>
+                        <circle cx="18" cy="24" r="2.5" fill="#254991"/>
+                        <path d="M18 14v-3M18 37v-3M8 24H5M31 24h-3" stroke="#254991" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M11 17l-2-2M27 31l-2-2M11 31l-2 2M27 17l-2 2" stroke="#254991" stroke-width="1.5" stroke-linecap="round"/>
+                        <!-- arm -->
+                        <path d="M30 18h6a2 2 0 012 2v6" stroke="#CB5116" stroke-width="2" stroke-linecap="round"/>
+                        <circle cx="38" cy="28" r="3" stroke="#CB5116" stroke-width="2" fill="none"/>
+                        <path d="M38 31v5" stroke="#CB5116" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M34 36h8" stroke="#CB5116" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-[#254991] font-semibold text-base leading-snug font-poppins group-hover:text-[#CB5116] transition-colors duration-300">
+                        Advanced additives or diverse applications
+                    </h3>
+                    <p class="text-gray-500 text-xs leading-relaxed mt-1.5 font-poppins">
+                        Specialized additive solutions tailored across industries — from heavy engineering and textiles to automotive and marine applications.
+                    </p>
+                </div>
+            </div>
+ 
+            <!-- Item 3: Premium lubricants for automotive, manufacturing, and construction -->
+            <div class="group flex items-start gap-5 p-8 sm:border-r border-[#cdd8ee] hover:bg-[#254991]/5 transition-colors duration-300">
+                <div class="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-white rounded-lg shadow-sm group-hover:shadow-md transition-shadow duration-300">
+                    <svg class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Car with lubricant drop -->
+                        <rect x="6" y="22" width="30" height="14" rx="3" stroke="#254991" stroke-width="2" fill="none"/>
+                        <path d="M10 22l4-8h14l4 8" stroke="#254991" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="13" cy="37" r="3.5" stroke="#254991" stroke-width="2" fill="none"/>
+                        <circle cx="29" cy="37" r="3.5" stroke="#254991" stroke-width="2" fill="none"/>
+                        <!-- Oil drop -->
+                        <path d="M40 10c0 4-3.5 7-3.5 7S33 14 33 10a3.5 3.5 0 117 0z" stroke="#CB5116" stroke-width="1.8" fill="none"/>
+                        <path d="M36.5 32v-10" stroke="#CB5116" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2 2"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-[#254991] font-semibold text-base leading-snug font-poppins group-hover:text-[#CB5116] transition-colors duration-300">
+                        Premium lubricants for automotive, manufacturing, and construction
+                    </h3>
+                    <p class="text-gray-500 text-xs leading-relaxed mt-1.5 font-poppins">
+                        High-performance engine oils, gear oils, and hydraulic fluids engineered for maximum efficiency and machinery longevity.
+                    </p>
+                </div>
+            </div>
+ 
+            <!-- Item 4: Specialty chemicals for industrial and automotive use -->
+            <div class="group flex items-start gap-5 p-8 hover:bg-[#254991]/5 transition-colors duration-300">
+                <div class="w-14 h-14 flex-shrink-0 flex items-center justify-center bg-white rounded-lg shadow-sm group-hover:shadow-md transition-shadow duration-300">
+                    <svg class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Flask / beakers -->
+                        <path d="M18 8v14l-8 16h28L30 22V8" stroke="#254991" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line x1="16" y1="8" x2="32" y2="8" stroke="#254991" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M14 32h20" stroke="#254991" stroke-width="1.5" stroke-linecap="round" opacity="0.35"/>
+                        <!-- Bubbles inside -->
+                        <circle cx="20" cy="30" r="2" fill="#CB5116" opacity="0.7"/>
+                        <circle cx="26" cy="34" r="1.5" fill="#CB5116" opacity="0.7"/>
+                        <circle cx="30" cy="29" r="1" fill="#CB5116" opacity="0.5"/>
+                        <!-- Small flask right -->
+                        <path d="M36 16v6l4 8" stroke="#CB5116" stroke-width="1.5" stroke-linecap="round"/>
+                        <line x1="34" y1="16" x2="38" y2="16" stroke="#CB5116" stroke-width="1.5" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-[#254991] font-semibold text-base leading-snug font-poppins group-hover:text-[#CB5116] transition-colors duration-300">
+                        Specialty chemicals for industrial and automotive Use
+                    </h3>
+                    <p class="text-gray-500 text-xs leading-relaxed mt-1.5 font-poppins">
+                        A curated range of specialty chemicals meeting stringent performance and environmental compliance standards for diverse industrial sectors.
+                    </p>
+                </div>
+            </div>
+ 
+        </div>
+        <!-- END GRID -->
+ 
+    </div>
+</section>
+<!-- END OUR EXPERTISE SECTION -->
 
     <!-- WHY CHOOSE US SECTION -->
     <section class="w-full bg-gray-50 py-16">
