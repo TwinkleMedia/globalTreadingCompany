@@ -177,11 +177,11 @@
                     </div>
                 </div>
 
-               
+
 
             </div>
     </section>
-        <?php 
+    <?php
     include "./whatsapp-float.php"
     ?>
 
