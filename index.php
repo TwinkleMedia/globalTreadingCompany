@@ -402,6 +402,9 @@
             </div>
         </div>
     </section>
+    <?php 
+    include "./whatsapp-float.php"
+    ?>
     <?php
     include "footer.php"
     ?>
