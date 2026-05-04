@@ -242,7 +242,7 @@
                 <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
                     <div class="w-full h-52 overflow-hidden relative">
                         <img
-                            src="https://images.unsplash.com/photo-1599059813005-11265ba4b4ce?w=600&q=80"
+                            src="./assets/IndustrialOils.jpg"
                             alt="Industrial Oils"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400"></div>
@@ -255,7 +255,7 @@
                             High-performance industrial oils engineered for heavy-duty machinery, offering superior thermal stability, oxidation resistance, and extended drain intervals for maximum equipment protection.
                         </p>
                         <div class="mt-5">
-                            <a href="#" class="inline-flex items-center gap-2 bg-[#CB5116] text-white text-sm font-medium px-5 py-2.5 rounded-sm hover:bg-[#254991] transition-colors duration-300">
+                            <a href="./IndustrialOils.php" class="inline-flex items-center gap-2 bg-[#CB5116] text-white text-sm font-medium px-5 py-2.5 rounded-sm hover:bg-[#254991] transition-colors duration-300">
                                 View List
                                 <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -269,7 +269,7 @@
                 <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
                     <div class="w-full h-52 overflow-hidden relative">
                         <img
-                            src="https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=600&q=80"
+                            src="./assets/lubricant-additives.webp"
                             alt="Lubricant Additives"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400"></div>
@@ -296,7 +296,7 @@
                 <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
                     <div class="w-full h-52 overflow-hidden relative">
                         <img
-                            src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=600&q=80"
+                            src="./assets/Viscosityindeximprovers.jpg"
                             alt="Specialty Chemicals"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400"></div>
