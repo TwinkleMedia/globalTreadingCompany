@@ -238,32 +238,7 @@
             <!-- PRODUCT CARDS GRID -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
 
-                <!-- Card 1: Industrial Oils -->
-                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
-                    <div class="w-full h-52 overflow-hidden relative">
-                        <img
-                            src="./assets/IndustrialOils.jpg"
-                            alt="Industrial Oils"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400"></div>
-                        <span class="absolute top-3 left-3 bg-[#CB5116] text-white text-xs font-medium px-3 py-1 rounded-full tracking-wide">Industrial</span>
-                    </div>
-                    <div class="p-6 flex flex-col flex-1">
-                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Industrial Oils</h3>
-                        <div class="w-8 h-0.5 bg-[#CB5116] mb-3 group-hover:w-16 transition-all duration-400"></div>
-                        <p class="text-gray-500 text-sm leading-relaxed flex-1">
-                            High-performance industrial oils engineered for heavy-duty machinery, offering superior thermal stability, oxidation resistance, and extended drain intervals for maximum equipment protection.
-                        </p>
-                        <div class="mt-5">
-                            <a href="./IndustrialOils.php" class="inline-flex items-center gap-2 bg-[#CB5116] text-white text-sm font-medium px-5 py-2.5 rounded-sm hover:bg-[#254991] transition-colors duration-300">
-                                View List
-                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+              
 
                 <!-- Card 2: Lubricant Additives -->
                 <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
