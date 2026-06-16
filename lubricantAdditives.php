@@ -63,7 +63,7 @@
 
             <!-- Heading -->
             <h1 class="text-white font-bold text-3xl sm:text-4xl lg:text-5xl tracking-wide uppercase mb-5">
-                Lubricant Additives
+                Lubricant Additives / Components
             </h1>
 
             <!-- Divider -->
