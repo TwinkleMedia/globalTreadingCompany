@@ -25,7 +25,7 @@
 
             <!-- Heading -->
             <h1 class="text-white font-bold text-3xl sm:text-4xl lg:text-5xl tracking-wide uppercase mb-5">
-                Industrial Oils
+                Lubricating Oil
             </h1>
 
             <!-- Divider -->

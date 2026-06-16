@@ -3,19 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Document</title>
 </head>
 
 <body>
-
-
-
-    <!-- ════════════════════════════════════════════════════════
-     PRODUCTS CAROUSEL SECTION
-     Drop this inside your existing page (after navbar/hero)
-     Tailwind CDN must already be loaded in your <head>
-════════════════════════════════════════════════════════ -->
     <?php
     include "./navbar.php"
     ?>
@@ -33,7 +25,7 @@
 
             <!-- Heading -->
             <h1 class="text-white font-bold text-3xl sm:text-4xl lg:text-5xl tracking-wide uppercase mb-5">
-                Specialty Chemicals
+                Metalworking Fluids
             </h1>
 
             <!-- Divider -->
@@ -52,7 +44,7 @@
             <div class="flex items-center justify-center gap-2 text-xs text-white/40 font-medium">
                 <a href="index.php" class="hover:text-[#CB5116] transition-colors duration-200">Home</a>
                 <span>/</span>
-                <span class="text-[#CB5116]">Specialty Chemicals</span>
+                <span class="text-[#CB5116]">Metalworking Fluids</span>
             </div>
 
         </div>
@@ -76,8 +68,6 @@
         </div>
 
     </section>
-
-
 
 
     <section class="font-poppins w-full bg-white py-14">
@@ -115,25 +105,20 @@
 ════════════════════════════════════ -->
     <script>
         const products = {
-            "category": "Specialty Chemicals",
+            "category": "Metalworking Fluids",
              items: [
-        "Methanol",
-        "Isopropyl Alcohol (IPA)",
-        "Ethanol (Industrial)",
-        "Acetone",
-        "Toluene",
-        "Xylene",
-        "Monoammonium Phosphate (MAP)",
-        "Ammonium Sulphate",
-        "Phosphate Sulphate",
-        "Sulphuric Acid",
-        "Hydrochloric Acid",
-        "Caustic Soda",
-        "Soda Ash",
-        "Hydrogen Peroxide",
-        "Industrial Salts",
-        "Surfactants",
-        "Resins and Chemical Intermediates"
+        "Cutting Oils (Neat Oils)",
+        "Soluble Cutting Oils",
+        "Semi-Synthetic Cutting Fluids",
+        "Synthetic Cutting Fluids",
+        "Grinding Fluids",
+        "Honing Oils",
+        "Rust Preventive Oils",
+        "Drawing and Forming Oils",
+        "Stamping Oils",
+        "Rolling Oils",
+        "EDM Fluids",
+        "Washing and Degreasing Fluids"
     ]
         };
 
@@ -278,6 +263,7 @@
         renderPage(0);
         startAuto();
     </script>
+
 </body>
 
 </html>

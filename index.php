@@ -237,10 +237,38 @@
 
             <!-- PRODUCT CARDS GRID -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+                <!-- Card 1: Lubricant Additives -->
+                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
+                    <div class="w-full h-52 overflow-hidden relative">
+                        <img
+                            src="./assets/images.jpg"
+                            alt="Lubricant Additives"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400"></div>
+                        <span class="absolute top-3 left-3 bg-[#CB5116] text-white text-xs font-medium px-3 py-1 rounded-full tracking-wide">Oil</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Industrial Oils</h3>
+                        <div class="w-8 h-0.5 bg-[#CB5116] mb-3 group-hover:w-16 transition-all duration-400"></div>
+                        <p class="text-gray-500 text-sm leading-relaxed flex-1">
+                            Precision-formulated additive packages that enhance viscosity, reduce friction, and improve wear protection — tailored for engine oils, gear oils, and industrial lubricants.
+                        </p>
+                        <div class="mt-5">
+                            <a href="./IndustrialOils.php" class="inline-flex items-center gap-2 bg-[#CB5116] text-white text-sm font-medium px-5 py-2.5 rounded-sm hover:bg-[#254991] transition-colors duration-300">
+                                View List
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div
 
-              
 
-                <!-- Card 2: Lubricant Additives -->
+
+
+
+                    <!-- Card 2: Lubricant Additives -->
                 <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
                     <div class="w-full h-52 overflow-hidden relative">
                         <img
@@ -251,7 +279,7 @@
                         <span class="absolute top-3 left-3 bg-[#CB5116] text-white text-xs font-medium px-3 py-1 rounded-full tracking-wide">Additives</span>
                     </div>
                     <div class="p-6 flex flex-col flex-1">
-                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Lubricant Additives / Speciality Chemicals</h3>
+                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Lubricant Additives</h3>
                         <div class="w-8 h-0.5 bg-[#CB5116] mb-3 group-hover:w-16 transition-all duration-400"></div>
                         <p class="text-gray-500 text-sm leading-relaxed flex-1">
                             Precision-formulated additive packages that enhance viscosity, reduce friction, and improve wear protection — tailored for engine oils, gear oils, and industrial lubricants.
@@ -271,17 +299,17 @@
                 <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
                     <div class="w-full h-52 overflow-hidden relative">
                         <img
-                            src="./assets/Viscosityindeximprovers.jpg"
+                            src="./assets/SpecialtyChemicals.jpg"
                             alt="Specialty Chemicals"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400"></div>
                         <span class="absolute top-3 left-3 bg-[#CB5116] text-white text-xs font-medium px-3 py-1 rounded-full tracking-wide">Chemicals</span>
                     </div>
                     <div class="p-6 flex flex-col flex-1">
-                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Viscosity index improvers</h3>
+                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Specialty Chemicals</h3>
                         <div class="w-8 h-0.5 bg-[#CB5116] mb-3 group-hover:w-16 transition-all duration-400"></div>
                         <p class="text-gray-500 text-sm leading-relaxed flex-1">
-                            A curated range of specialty chemicals for industrial and manufacturing applications, formulated to meet stringent performance and environmental compliance standards.
+                            Custom-formulated chemical solutions for cleaning, degreasing, and surface treatment tailored to specific industrial processes.
                         </p>
                         <div class="mt-5">
                             <a href="./viscosityindeximprovers.php" class="inline-flex items-center gap-2 bg-[#CB5116] text-white text-sm font-medium px-5 py-2.5 rounded-sm hover:bg-[#254991] transition-colors duration-300">
@@ -293,6 +321,62 @@
                         </div>
                     </div>
                 </div>
+                <!-- card 3 Metalworking Fluids -->
+
+                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
+                    <div class="w-full h-52 overflow-hidden relative">
+                        <img
+                            src="./assets/metalworking.png"
+                            alt="Lubricant Additives"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400"></div>
+                        <span class="absolute top-3 left-3 bg-[#CB5116] text-white text-xs font-medium px-3 py-1 rounded-full tracking-wide">Fluids</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Metalworking Fluids</h3>
+                        <div class="w-8 h-0.5 bg-[#CB5116] mb-3 group-hover:w-16 transition-all duration-400"></div>
+                        <p class="text-gray-500 text-sm leading-relaxed flex-1">
+                            Advanced cutting oils, neat cutting oils, and water-miscible coolants designed to extend tool life and improve surface finish.
+                        </p>
+                        <div class="mt-5">
+                            <a href="./metalworkingfluids.php" class="inline-flex items-center gap-2 bg-[#CB5116] text-white text-sm font-medium px-5 py-2.5 rounded-sm hover:bg-[#254991] transition-colors duration-300">
+                                View List
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- card 4 Finished Fluids -->
+
+                <div class="group bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-xl transition-all duration-400 flex flex-col border-b-4 border-b-transparent hover:border-b-[#CB5116]">
+                    <div class="w-full h-52 overflow-hidden relative">
+                        <img
+                            src="./assets/engine oil.png"
+                            alt="Lubricant Additives"
+                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-400"></div>
+                        <span class="absolute top-3 left-3 bg-[#CB5116] text-white text-xs font-medium px-3 py-1 rounded-full tracking-wide">Fluids</span>
+                    </div>
+                    <div class="p-6 flex flex-col flex-1">
+                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Finished Fluids</h3>
+                        <div class="w-8 h-0.5 bg-[#CB5116] mb-3 group-hover:w-16 transition-all duration-400"></div>
+                        <p class="text-gray-500 text-sm leading-relaxed flex-1">
+                            A range of ready-to-use hydraulic, turbine, and compressor fluids meeting international OEM specifications.
+                        </p>
+                        <div class="mt-5">
+                            <a href="./finishedfluids.php" class="inline-flex items-center gap-2 bg-[#CB5116] text-white text-sm font-medium px-5 py-2.5 rounded-sm hover:bg-[#254991] transition-colors duration-300">
+                                View List
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
 
     </section>
     <!-- END GRID -->
@@ -473,7 +557,7 @@
                         </div>
                         <div>
                             <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Our Address</p>
-                            <p class="text-gray-700 text-sm leading-relaxed">Plot No. 12, MIDC Industrial Area,<br>Mumbai, Maharashtra – 400093</p>
+                            <p class="text-gray-700 text-sm leading-relaxed">Office No - 13 Sanjivani Centre Plot No - F/03 Sector -12 Kharghar <br>Navi Mumbai - 410210</p>
                         </div>
                     </div>
 
@@ -486,7 +570,7 @@
                         </div>
                         <div>
                             <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Phone</p>
-                            <p class="text-gray-700 text-sm leading-relaxed">+91 98200 00000<br>+91 22 1234 5678</p>
+                            <p class="text-gray-700 text-sm leading-relaxed">+91 84249 49598</p>
                         </div>
                     </div>
 

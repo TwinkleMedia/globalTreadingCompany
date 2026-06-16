@@ -159,7 +159,7 @@
                     </div>
                     <div>
                         <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Address</p>
-                        <p class="text-gray-700 text-sm leading-relaxed">Plot No. 12, MIDC Industrial Area,<br>Mumbai, Maharashtra – 400093</p>
+                        <p class="text-gray-700 text-sm leading-relaxed">Office No - 13 Sanjivani Centre Plot No - F/03 Sector -12 Kharghar <br>Navi Mumbai - 410210</p>
                     </div>
                 </div>
 
@@ -172,7 +172,7 @@
                     </div>
                     <div>
                         <p class="text-[#CB5116] text-xs font-semibold uppercase tracking-widest mb-1">Phone</p>
-                        <p class="text-gray-700 text-sm leading-relaxed">+91 98200 00000<br>+91 22 1234 5678</p>
+                        <p class="text-gray-700 text-sm leading-relaxed">+91 84249 49598</p>
                     </div>
                 </div>
 
@@ -464,6 +464,6 @@
 
     <?php include "./footer.php"; ?>
 
-</body>
+</body> 
 
 </html>
