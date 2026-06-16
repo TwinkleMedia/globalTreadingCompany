@@ -279,7 +279,7 @@
                         <span class="absolute top-3 left-3 bg-[#CB5116] text-white text-xs font-medium px-3 py-1 rounded-full tracking-wide">Additives</span>
                     </div>
                     <div class="p-6 flex flex-col flex-1">
-                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Lubricant Additives</h3>
+                        <h3 class="text-[#254991] font-semibold text-base mb-2 group-hover:text-[#CB5116] transition-colors duration-300">Lubricant Additives / Components</h3>
                         <div class="w-8 h-0.5 bg-[#CB5116] mb-3 group-hover:w-16 transition-all duration-400"></div>
                         <p class="text-gray-500 text-sm leading-relaxed flex-1">
                             Precision-formulated additive packages that enhance viscosity, reduce friction, and improve wear protection — tailored for engine oils, gear oils, and industrial lubricants.
