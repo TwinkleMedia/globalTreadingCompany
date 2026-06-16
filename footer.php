@@ -86,8 +86,10 @@
                     <p class="text-white font-bold text-xs tracking-widest uppercase mb-5 pb-2.5 relative after:absolute after:bottom-0 after:left-0 after:w-7 after:h-0.5 after:bg-[#CB5116] after:rounded">Products</p>
                     <ul class="space-y-2.5">
                         <li><a href="./IndustrialOils.php" class="text-white/60 text-sm flex items-center gap-2 hover:text-[#CB5116] transition-colors duration-200"><span class="w-1.5 h-1.5 rounded-full bg-[#CB5116] opacity-70 flex-shrink-0"></span>Industrial Oils</a></li>
-                        <li><a href="./lubricantAdditives.php" class="text-white/60 text-sm flex items-center gap-2 hover:text-[#CB5116] transition-colors duration-200"><span class="w-1.5 h-1.5 rounded-full bg-[#CB5116] opacity-70 flex-shrink-0"></span>Lubricant Additives / Speciality Chemicals</a></li>
-                        <li><a href="./viscosityindeximprovers.php" class="text-white/60 text-sm flex items-center gap-2 hover:text-[#CB5116] transition-colors duration-200"><span class="w-1.5 h-1.5 rounded-full bg-[#CB5116] opacity-70 flex-shrink-0"></span>Viscosity index improvers</a></li>
+                        <li><a href="./lubricantAdditives.php" class="text-white/60 text-sm flex items-center gap-2 hover:text-[#CB5116] transition-colors duration-200"><span class="w-1.5 h-1.5 rounded-full bg-[#CB5116] opacity-70 flex-shrink-0"></span> Lubricant Additives / Components</a></li>
+                        <li><a href="./viscosityindeximprovers.php" class="text-white/60 text-sm flex items-center gap-2 hover:text-[#CB5116] transition-colors duration-200"><span class="w-1.5 h-1.5 rounded-full bg-[#CB5116] opacity-70 flex-shrink-0"></span>Specialty Chemicals</a></li>
+                        <li><a href="./metalworkingfluids.php" class="text-white/60 text-sm flex items-center gap-2 hover:text-[#CB5116] transition-colors duration-200"><span class="w-1.5 h-1.5 rounded-full bg-[#CB5116] opacity-70 flex-shrink-0"></span>Metalworking Fluids</a></li>
+                        <li><a href="./finishedfluids.php" class="text-white/60 text-sm flex items-center gap-2 hover:text-[#CB5116] transition-colors duration-200"><span class="w-1.5 h-1.5 rounded-full bg-[#CB5116] opacity-70 flex-shrink-0"></span>Finished Fluids</a></li>
 
                     </ul>
                 </div>
